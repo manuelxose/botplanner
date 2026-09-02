@@ -1,0 +1,27 @@
+{
+  "project": "botplanner",
+  "executionMode": "sequential",
+  "currentPrompt": 3,
+  "prompts": [
+    {
+      "order": 0,
+      "file": "PROMPT 00 — BOTPLANNER AI ENGINEERING BOOTSTRAP, GRAPHIFY KNOWLEDGE BASE, SKILLS & MULTI-AGENT SETUP.md",
+      "status": "completed"
+    },
+    {
+      "order": 1,
+      "file": "PROMPT 1 — MASTER ARCHITECTURE, REPOSITORY BOOTSTRAP & EXECUTION PLAN.md",
+      "status": "completed"
+    },
+    {
+      "order": 2,
+      "file": "PROMPT 2 — REAL DATA PROVIDERS, DISCOVERY ENGINE, PRICING & TRIP GENERATION.md",
+      "status": "completed"
+    },
+    {
+      "order": 3,
+      "file": "PROMPT 3 — COMPLETE MVP UX-UI, CONVERSATIONAL REFINEMENT, VALIDATION & PRODUCTION READINESS.md",
+      "status": "completed"
+    }
+  ]
+}

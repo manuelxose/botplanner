@@ -1,0 +1,470 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1788376911.2224965,
+    "seen": 1788376978.3969903,
+    "ast_hash": "005ac71c84af2cae38e255e2b9de2411",
+    "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
+  },
+  "prompts/manifest.json": {
+    "mtime": 1788378687.6709375,
+    "seen": 1788378777.2058418,
+    "ast_hash": "f3a9fa8d49d23c076cc5bd8606139153",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1788379311.236152,
+    "seen": 1788379493.0299327,
+    "ast_hash": "3dfafb050d3bb0606976893be9527f71",
+    "semantic_hash": ""
+  },
+  "src/application/date-engine.ts": {
+    "mtime": 1788377812.241075,
+    "seen": 1788377843.8592057,
+    "ast_hash": "932b8b06020ddbc6f4ce36a43c4d9f21",
+    "semantic_hash": ""
+  },
+  "src/application/providers.ts": {
+    "mtime": 1788378713.4274287,
+    "seen": 1788378777.205854,
+    "ast_hash": "4f4502ceed35c34958cef0586da22068",
+    "semantic_hash": ""
+  },
+  "src/domain/travel-query.ts": {
+    "mtime": 1788378673.341823,
+    "seen": 1788378777.2058566,
+    "ast_hash": "94e7e2a628690d743647a8619e8263cd",
+    "semantic_hash": ""
+  },
+  "src/server.ts": {
+    "mtime": 1788378673.3600366,
+    "seen": 1788378777.2058594,
+    "ast_hash": "78c4df0837cbc252cc8b907eaeea7840",
+    "semantic_hash": ""
+  },
+  "tests/date-engine.test.ts": {
+    "mtime": 1788377812.2819142,
+    "seen": 1788377843.8592083,
+    "ast_hash": "becf153fab57682b84449629e12003d6",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1788377812.2077782,
+    "seen": 1788377843.859209,
+    "ast_hash": "c14490351056f432a32ab0fc7e29e5a1",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/SKILL.md": {
+    "mtime": 1788376911.195425,
+    "seen": 1788377843.8592095,
+    "ast_hash": "212b55d95333d84e14262f8ec83faa2b",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/add-watch.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592103,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/exports.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592107,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592114,
+    "ast_hash": "bf895ec4d4e40f5f66f7d31c2a9bd4a7",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.859212,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/hooks.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592126,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/query.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.859213,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/transcribe.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592138,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/update.md": {
+    "mtime": 1788376856.0,
+    "seen": 1788377843.8592143,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": ""
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1788379311.2024095,
+    "seen": 1788379493.0300417,
+    "ast_hash": "a2f0c374b309d5bc5905d0fa4a440e09",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1788379311.1714697,
+    "seen": 1788379493.0300436,
+    "ast_hash": "e6709aaf05115d03ef163c475137e14b",
+    "semantic_hash": ""
+  },
+  "docs/ai/ENVIRONMENT-AUDIT.md": {
+    "mtime": 1788379431.28691,
+    "seen": 1788379493.0300484,
+    "ast_hash": "570b0c2e1d95751c861cf0afba54d720",
+    "semantic_hash": ""
+  },
+  "docs/ai/GRAPHIFY-SETUP.md": {
+    "mtime": 1788379431.3186944,
+    "seen": 1788379493.0300531,
+    "ast_hash": "64068309dd869547f4a74483488add44",
+    "semantic_hash": ""
+  },
+  "docs/init.md": {
+    "mtime": 1788375892.5700135,
+    "seen": 1788377843.8592176,
+    "ast_hash": "930a3c2f28dd61222097423914773774",
+    "semantic_hash": ""
+  },
+  "prompts/PROMPT 00 \u2014 BOTPLANNER AI ENGINEERING BOOTSTRAP, GRAPHIFY KNOWLEDGE BASE, SKILLS & MULTI-AGENT SETUP.md": {
+    "mtime": 1788376303.4020069,
+    "seen": 1788377843.8592198,
+    "ast_hash": "568421c27719216a203b3388a7806b5c",
+    "semantic_hash": ""
+  },
+  "prompts/PROMPT 1 \u2014 MASTER ARCHITECTURE, REPOSITORY BOOTSTRAP & EXECUTION PLAN.md": {
+    "mtime": 1788376344.4411857,
+    "seen": 1788377843.8592205,
+    "ast_hash": "04a97603e911e9975914e48d5e39e987",
+    "semantic_hash": ""
+  },
+  "prompts/PROMPT 2 \u2014 REAL DATA PROVIDERS, DISCOVERY ENGINE, PRICING & TRIP GENERATION.md": {
+    "mtime": 1788376327.9789193,
+    "seen": 1788377843.8592212,
+    "ast_hash": "097bb38bbfb845bbdf7e1a122e383247",
+    "semantic_hash": ""
+  },
+  "prompts/PROMPT 3 \u2014 COMPLETE MVP UX-UI, CONVERSATIONAL REFINEMENT, VALIDATION & PRODUCTION READINESS.md": {
+    "mtime": 1788376284.1270368,
+    "seen": 1788377843.8592224,
+    "ast_hash": "27684749057191f2b3e0b28315a5b478",
+    "semantic_hash": ""
+  },
+  "src/application/discovery-engine.ts": {
+    "mtime": 1788378732.6548944,
+    "seen": 1788378777.2058508,
+    "ast_hash": "b2bacf7a50db845cf55ce8732d3499e2",
+    "semantic_hash": ""
+  },
+  "tests/discovery-engine.test.ts": {
+    "mtime": 1788378687.7366755,
+    "seen": 1788378777.205865,
+    "ast_hash": "82086e026e122b6c4103d302d3019560",
+    "semantic_hash": ""
+  },
+  "docs/providers/README.md": {
+    "mtime": 1788378687.7134464,
+    "seen": 1788378777.205902,
+    "ast_hash": "44f24e31979a6e6732a026aae8f0d5c5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/scripts/playwright_cli.sh": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.029916,
+    "ast_hash": "13378f0e70b31c018d5b1f3721c5228a",
+    "semantic_hash": ""
+  },
+  "scripts/ai/bootstrap.mjs": {
+    "mtime": 1788379311.9042034,
+    "seen": 1788379493.0299425,
+    "ast_hash": "067dd51cbad19bd118457c063c564e33",
+    "semantic_hash": ""
+  },
+  "scripts/ai/doctor.mjs": {
+    "mtime": 1788379311.8727195,
+    "seen": 1788379493.0299451,
+    "ast_hash": "3b1181b42cf5c2ee0eeb497eafa87f49",
+    "semantic_hash": ""
+  },
+  ".agents/skills/botplanner-architecture/SKILL.md": {
+    "mtime": 1788379311.3724122,
+    "seen": 1788379493.0299633,
+    "ast_hash": "273f479c0b4acb5195cdbd485946e36b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/botplanner-architecture/agents/openai.yaml": {
+    "mtime": 1788379195.5512793,
+    "seen": 1788379493.0299647,
+    "ast_hash": "9a8a292f9c2dd266eabaa0f0fbcc7d5a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/botplanner-requirements/SKILL.md": {
+    "mtime": 1788379311.27969,
+    "seen": 1788379493.0299666,
+    "ast_hash": "10f616f690c2856fb704b7e7f69f42b4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/botplanner-requirements/agents/openai.yaml": {
+    "mtime": 1788379195.284702,
+    "seen": 1788379493.029968,
+    "ast_hash": "12de17107461cd9ff315797b63d5f3d8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/LICENSE.txt": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0299697,
+    "ast_hash": "51ba449917ba68e93887b3e265813f38",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/NOTICE.txt": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0299714,
+    "ast_hash": "6fa64e3d4812d12abab61cbbd7c5c0a5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/SKILL.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.029973,
+    "ast_hash": "6fa5a70680c5a964af1d92061949b106",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/agents/openai.yaml": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0299747,
+    "ast_hash": "64479c5417b6184eb73b240b34ca0f38",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/references/cli.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0299811,
+    "ast_hash": "1786714a6caac3b6580d31d5b445039d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/references/workflows.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.029983,
+    "ast_hash": "0fd76ccf270db3a6ba53347140e46c54",
+    "semantic_hash": ""
+  },
+  ".agents/skills/price-provenance/SKILL.md": {
+    "mtime": 1788379311.7029147,
+    "seen": 1788379493.0299897,
+    "ast_hash": "190f26ac85ce8b50881a985bff5d5561",
+    "semantic_hash": ""
+  },
+  ".agents/skills/price-provenance/agents/openai.yaml": {
+    "mtime": 1788379196.2348733,
+    "seen": 1788379493.029991,
+    "ast_hash": "b8bbba77004dc6cf81c79b6aeb729923",
+    "semantic_hash": ""
+  },
+  ".agents/skills/provider-contract-testing/SKILL.md": {
+    "mtime": 1788379311.671231,
+    "seen": 1788379493.0299923,
+    "ast_hash": "fd334143af38cb1fb263af4c343cb7a8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/provider-contract-testing/agents/openai.yaml": {
+    "mtime": 1788379196.0845947,
+    "seen": 1788379493.0299938,
+    "ast_hash": "49ad23a07ab2e60ab932a28144ce37b4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/provider-integration/SKILL.md": {
+    "mtime": 1788379311.516199,
+    "seen": 1788379493.029995,
+    "ast_hash": "526bcd7ed45b750c86bd84332e274d8b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/provider-integration/agents/openai.yaml": {
+    "mtime": 1788379195.8014429,
+    "seen": 1788379493.0299966,
+    "ast_hash": "244cfcd2499e183c644d66954556e723",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/LICENSE.txt": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.029998,
+    "ast_hash": "0bfdc0ac8ba46ed583d8fccc1e347dff",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/SKILL.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0299993,
+    "ast_hash": "9f3a5b389f97c0951dfc588da8391679",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/agents/openai.yaml": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.030001,
+    "ast_hash": "3efbd5602298c0bdd0194f1624c67cc4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/golang-general-backend-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300024,
+    "ast_hash": "8aafcb3ddf00de8a535b07f5200e879d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-express-web-server-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.030004,
+    "ast_hash": "6278ffde1496f5181877da91c412cf86",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-general-web-frontend-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300052,
+    "ast_hash": "57282066da904716d09286eb62fb6ac2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-jquery-web-frontend-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300066,
+    "ast_hash": "47d53f17b7fd956c95fc182420aaeda6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.030008,
+    "ast_hash": "1159172e24aeda71e5e787a5ecb28300",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-typescript-react-web-frontend-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300093,
+    "ast_hash": "37eeb767688b551f656d094aa4e09540",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300107,
+    "ast_hash": "a45286291832a9b7d7307b0b624e1cdb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/python-django-web-server-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300121,
+    "ast_hash": "22aa199aca7d03c436774d603d966dc2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/python-fastapi-web-server-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300138,
+    "ast_hash": "56ad2634eda6b9f80eab5fb7eecca76b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/security-best-practices/references/python-flask-web-server-security.md": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300155,
+    "ast_hash": "d95cae787eb7a2df05c96c3107722498",
+    "semantic_hash": ""
+  },
+  ".agents/skills/travel-discovery-domain/SKILL.md": {
+    "mtime": 1788379311.331351,
+    "seen": 1788379493.0300171,
+    "ast_hash": "9dbc730454b55e7ec96360e835cea2cc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/travel-discovery-domain/agents/openai.yaml": {
+    "mtime": 1788379195.4197242,
+    "seen": 1788379493.0300186,
+    "ast_hash": "2b6806b55af9f2b12b47f403cf78937e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/travel-ui-ux/SKILL.md": {
+    "mtime": 1788379311.6308196,
+    "seen": 1788379493.03002,
+    "ast_hash": "a89063d7da3c1be0ac028747996b2c54",
+    "semantic_hash": ""
+  },
+  ".agents/skills/travel-ui-ux/agents/openai.yaml": {
+    "mtime": 1788379195.9564974,
+    "seen": 1788379493.0300214,
+    "ast_hash": "27faaa8f538dcc54f5a7217c1fb24e12",
+    "semantic_hash": ""
+  },
+  ".agents/skills/typescript-node-backend/SKILL.md": {
+    "mtime": 1788379311.4300056,
+    "seen": 1788379493.0300229,
+    "ast_hash": "07384c1aed70adc5e4fab813626ab464",
+    "semantic_hash": ""
+  },
+  ".agents/skills/typescript-node-backend/agents/openai.yaml": {
+    "mtime": 1788379195.668007,
+    "seen": 1788379493.0300243,
+    "ast_hash": "d8f375db742ca097ac92ee602b030021",
+    "semantic_hash": ""
+  },
+  "docs/ai/AGENT-REGISTRY.md": {
+    "mtime": 1788379311.8126261,
+    "seen": 1788379493.0300453,
+    "ast_hash": "eb35c179d0a0148a2b3f3594ddaefc5b",
+    "semantic_hash": ""
+  },
+  "docs/ai/BOOTSTRAP-COMPLETION-REPORT.md": {
+    "mtime": 1788379331.5641816,
+    "seen": 1788379493.0300467,
+    "ast_hash": "bdccd9a7f1570f2425bdf8612d7df49c",
+    "semantic_hash": ""
+  },
+  "docs/ai/GRAPH-FIRST-POLICY.md": {
+    "mtime": 1788379311.718654,
+    "seen": 1788379493.0300498,
+    "ast_hash": "d1b04455b2563c6c5e12cd238e388bc0",
+    "semantic_hash": ""
+  },
+  "docs/ai/GRAPHIFY-BASELINE.md": {
+    "mtime": 1788379331.5238512,
+    "seen": 1788379493.0300512,
+    "ast_hash": "99eddf92b076202429483eb658ae364f",
+    "semantic_hash": ""
+  },
+  "docs/ai/MCP-REGISTRY.md": {
+    "mtime": 1788379311.8407922,
+    "seen": 1788379493.0300546,
+    "ast_hash": "03599f80ccab9afb2efccd4f570f4f86",
+    "semantic_hash": ""
+  },
+  "docs/ai/PROVIDER-RESEARCH-POLICY.md": {
+    "mtime": 1788379311.7619424,
+    "seen": 1788379493.0300562,
+    "ast_hash": "b3e3e10de1fe9bcfb3896da17eb26d7d",
+    "semantic_hash": ""
+  },
+  "docs/ai/SKILL-REGISTRY.md": {
+    "mtime": 1788379311.7934184,
+    "seen": 1788379493.0300574,
+    "ast_hash": "67754881b96bb03e7cf5adc06a10aa55",
+    "semantic_hash": ""
+  },
+  "docs/ai/TOKEN-EFFICIENCY.md": {
+    "mtime": 1788379311.746029,
+    "seen": 1788379493.030059,
+    "ast_hash": "f53ceef2a3de23cac2f018db6808587c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/assets/playwright-small.svg": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300744,
+    "ast_hash": "912e230afcb82f74963847c44d76c36e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/playwright/assets/playwright.png": {
+    "mtime": 1788379189.0,
+    "seen": 1788379493.0300758,
+    "ast_hash": "59e36ff37e0eb5062d72e40231521df6",
+    "semantic_hash": ""
+  }
+}

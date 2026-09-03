@@ -58,7 +58,7 @@
   "56": "4) Rules (generation + audit)",
   "57": "4) Rules (generation + audit)",
   "58": "4) Rules (generation + audit)",
-  "59": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+  "59": "Components",
   "60": "Playwright CLI Skill",
   "61": "security-best-practices/SKILL.md",
   "62": "Playwright CLI Reference",
@@ -82,5 +82,6 @@
   "80": "PROVIDER-RESEARCH-POLICY.md",
   "81": "SKILL-REGISTRY.md",
   "82": "TOKEN-EFFICIENCY.md",
-  "83": "bootstrap.mjs"
+  "83": "bootstrap.mjs",
+  "84": "app.js"
 }

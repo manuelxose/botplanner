@@ -1,10 +1,5 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
-import { discoverTrips, parseTravelQuery } from '../src/application/discovery-engine.js';
-
-test('discovery returns ordered, explicitly mocked candidates', () => {
-  const trips = discoverTrips(parseTravelQuery({ availabilityStart: '2026-10-03', availabilityEnd: '2026-10-06', minDays: 2, maxDays: 2 }));
-  assert.ok(trips.length > 0);
-  assert.equal(trips[0].status, 'MOCK');
-  assert.ok(trips.every((trip) => trip.cost.total > 0));
-});
+import test from 'node:test'; import assert from 'node:assert/strict';
+import { discoverTrips, parseTravelQuery } from '../src/application/discovery-engine.js'; import type { FlightProvider } from '../src/application/providers.js';
+const provider: FlightProvider = { name:'test provider', available:true, async discover() { return [{origin:'VGO',destination:'Roma',destinationCode:'FCO',price:99,stops:0,dates:{departureDate:'2026-10-03',returnDate:'2026-10-06',nights:3,calendarDays:4},source:{provider:'test provider',retrievedAt:'2026-09-01T10:00:00Z',status:'RECENT',confidence:.8}}]; } };
+test('flexible origins parse and recent results retain provenance', async () => { const query=parseTravelQuery({availabilityStart:'2026-10-03',availabilityEnd:'2026-10-06',minDays:3,maxDays:3,origins:['vgo','scq'],travellers:2}); assert.deepEqual(query.origins,['VGO','SCQ']); const result=await discoverTrips(query,provider); assert.equal(result.data[0].status,'RECENT'); assert.equal(result.data[0].cost.flights.amount,99); assert.equal(result.data[0].cost.accommodation.status,'ESTIMATED'); assert.ok(result.data[0].rationale.includes('Vuelo directo')); });
+test('unavailable provider never returns mock results', async () => { const result=await discoverTrips(parseTravelQuery({availabilityStart:'2026-10-03',availabilityEnd:'2026-10-06'}),{...provider,available:false}); assert.equal(result.data.length,0); assert.equal(result.meta.realResults,false); });

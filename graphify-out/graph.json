@@ -4,43 +4,17 @@
   "graph": {},
   "nodes": [
     {
-      "id": "src_application_providers_accommodationprovider",
-      "label": "AccommodationProvider",
+      "id": "src_application_discovery_engine_discoveryresult",
+      "label": "DiscoveryResult",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 13,
       "community_name": "discovery-engine.ts",
       "file_type": "code",
-      "norm_label": "accommodationprovider",
-      "source_file": "src/application/providers.ts",
-      "source_location": "L14"
-    },
-    {
-      "id": "src_application_providers_accommodationquote",
-      "label": "AccommodationQuote",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "discovery-engine.ts",
-      "file_type": "code",
-      "norm_label": "accommodationquote",
-      "source_file": "src/application/providers.ts",
-      "source_location": "L19"
-    },
-    {
-      "id": "src_application_providers_datastatus",
-      "label": "DataStatus",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "discovery-engine.ts",
-      "file_type": "code",
-      "norm_label": "datastatus",
-      "source_file": "src/application/providers.ts",
-      "source_location": "L1"
+      "norm_label": "discoveryresult",
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L4"
     },
     {
       "id": "src_application_providers_flightprovider",
@@ -53,7 +27,7 @@
       "file_type": "code",
       "norm_label": "flightprovider",
       "source_file": "src/application/providers.ts",
-      "source_location": "L10"
+      "source_location": "L3"
     },
     {
       "id": "src_application_providers_flightquote",
@@ -66,20 +40,7 @@
       "file_type": "code",
       "norm_label": "flightquote",
       "source_file": "src/application/providers.ts",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_application_providers_sourcedresult",
-      "label": "SourcedResult",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "discovery-engine.ts",
-      "file_type": "code",
-      "norm_label": "sourcedresult",
-      "source_file": "src/application/providers.ts",
-      "source_location": "L3"
+      "source_location": "L2"
     },
     {
       "id": "src_domain_travel_query_carpreference",
@@ -105,7 +66,7 @@
       "file_type": "code",
       "norm_label": "datastatus",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L20"
+      "source_location": "L3"
     },
     {
       "id": "src_domain_travel_query_datecombination",
@@ -118,7 +79,20 @@
       "file_type": "code",
       "norm_label": "datecombination",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L29"
+      "source_location": "L8"
+    },
+    {
+      "id": "src_domain_travel_query_pricepart",
+      "label": "PricePart",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "pricepart",
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L6"
     },
     {
       "id": "src_domain_travel_query_sourcerecord",
@@ -131,7 +105,7 @@
       "file_type": "code",
       "norm_label": "sourcerecord",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L21"
+      "source_location": "L5"
     },
     {
       "id": "src_domain_travel_query_travelmode",
@@ -170,7 +144,7 @@
       "file_type": "code",
       "norm_label": "tripcandidate",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L23"
+      "source_location": "L9"
     },
     {
       "id": "src_domain_travel_query_tripcostbreakdown",
@@ -183,7 +157,46 @@
       "file_type": "code",
       "norm_label": "tripcostbreakdown",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L22"
+      "source_location": "L7"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_apiresponse",
+      "label": "ApiResponse",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "apiresponse",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_apiticket",
+      "label": "ApiTicket",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "apiticket",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "label": "AviasalesFlightProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "aviasalesflightprovider",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L7"
     },
     {
       "id": "src_application_date_engine_generatedatecombinations",
@@ -219,7 +232,7 @@
       "file_type": "code",
       "norm_label": "discovertrips()",
       "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L13"
+      "source_location": "L6"
     },
     {
       "id": "src_application_discovery_engine_parsetravelquery",
@@ -231,31 +244,79 @@
       "file_type": "code",
       "norm_label": "parsetravelquery()",
       "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L26"
+      "source_location": "L14"
     },
     {
-      "id": "src_application_providers_accommodationprovider_search",
-      "label": ".search()",
+      "id": "src_application_discovery_engine_rank",
+      "label": "rank()",
       "_callable": true,
       "_origin": "ast",
       "community": 13,
       "community_name": "discovery-engine.ts",
       "file_type": "code",
-      "norm_label": ".search()",
-      "source_file": "src/application/providers.ts",
-      "source_location": "L15"
+      "norm_label": "rank()",
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L5"
     },
     {
-      "id": "src_application_providers_flightprovider_searchindicative",
-      "label": ".searchIndicative()",
+      "id": "src_application_providers_flightprovider_discover",
+      "label": ".discover()",
       "_callable": true,
       "_origin": "ast",
       "community": 13,
       "community_name": "discovery-engine.ts",
       "file_type": "code",
-      "norm_label": ".searchindicative()",
+      "norm_label": ".discover()",
       "source_file": "src/application/providers.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_constructor",
+      "label": ".constructor()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": ".constructor()",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_discover",
+      "label": ".discover()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": ".discover()",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
       "source_location": "L11"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_fetchorigin",
+      "label": ".fetchOrigin()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": ".fetchorigin()",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_normalize",
+      "label": ".normalize()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": ".normalize()",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L21"
     },
     {
       "id": "scripts_ai_doctor_atroot",
@@ -292,6 +353,42 @@
       "norm_label": "commandexists()",
       "source_file": "scripts/ai/doctor.mjs",
       "source_location": "L7"
+    },
+    {
+      "id": "public_app_amount",
+      "label": "amount()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "amount()",
+      "source_file": "public/app.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "public_app_esc",
+      "label": "esc()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "esc()",
+      "source_file": "public/app.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "public_app_renderorigins",
+      "label": "renderOrigins()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "renderorigins()",
+      "source_file": "public/app.js",
+      "source_location": "L2"
     },
     {
       "id": "prompts_prompt_00_botplanner_ai_engineering_bootstrap_graphify_knowledge_base_skills_multi_agent_setup",
@@ -1853,28 +1950,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_application_discovery_engine_destinations",
-      "label": "destinations",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "discovery-engine.ts",
-      "file_type": "code",
-      "norm_label": "destinations",
-      "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L6"
-    },
-    {
-      "id": "src_application_discovery_engine_mocksource",
-      "label": "mockSource",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "discovery-engine.ts",
-      "file_type": "code",
-      "norm_label": "mocksource",
-      "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L5"
-    },
-    {
       "id": "src_application_providers",
       "label": "providers.ts",
       "_origin": "ast",
@@ -1897,6 +1972,28 @@
       "source_location": "L1"
     },
     {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "label": "aviasales-flight-provider.ts",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "aviasales-flight-provider.ts",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_infrastructure_providers_aviasales_aviasales_flight_provider_destinationnames",
+      "label": "destinationNames",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "destinationnames",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L6"
+    },
+    {
       "id": "src_server",
       "label": "server.ts",
       "_origin": "ast",
@@ -1908,6 +2005,28 @@
       "source_location": "L1"
     },
     {
+      "id": "src_server_provider",
+      "label": "provider",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "provider",
+      "source_file": "src/server.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_server_publicdir",
+      "label": "publicDir",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "publicdir",
+      "source_file": "src/server.ts",
+      "source_location": "L3"
+    },
+    {
       "id": "src_server_server",
       "label": "server",
       "_origin": "ast",
@@ -1916,7 +2035,18 @@
       "file_type": "code",
       "norm_label": "server",
       "source_file": "src/server.ts",
-      "source_location": "L5"
+      "source_location": "L4"
+    },
+    {
+      "id": "src_server_types",
+      "label": "types",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "types",
+      "source_file": "src/server.ts",
+      "source_location": "L3"
     },
     {
       "id": "tests_date_engine_test",
@@ -1939,6 +2069,17 @@
       "norm_label": "discovery-engine.test.ts",
       "source_file": "tests/discovery-engine.test.ts",
       "source_location": "L1"
+    },
+    {
+      "id": "tests_discovery_engine_test_provider",
+      "label": "provider",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "discovery-engine.ts",
+      "file_type": "code",
+      "norm_label": "provider",
+      "source_file": "tests/discovery-engine.test.ts",
+      "source_location": "L3"
     },
     {
       "id": "prompts_prompt_3_complete_mvp_ux_ui_conversational_refinement_validation_production_readiness_31_final_deliverable",
@@ -2934,7 +3075,7 @@
       "node_kind": "heading",
       "norm_label": "ausencias y riesgos",
       "source_file": "docs/ai/ENVIRONMENT-AUDIT.md",
-      "source_location": "L41"
+      "source_location": "L45"
     },
     {
       "id": "docs_ai_environment_audit_botplanner_auditor\u00eda_del_entorno_ai",
@@ -2970,7 +3111,7 @@
       "node_kind": "heading",
       "norm_label": "graphify",
       "source_file": "docs/ai/ENVIRONMENT-AUDIT.md",
-      "source_location": "L34"
+      "source_location": "L37"
     },
     {
       "id": "docs_ai_environment_audit_herramientas_detectadas",
@@ -9392,6 +9533,186 @@
       "source_location": "L1"
     },
     {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security",
+      "label": "javascript-typescript-nextjs-web-server-security.md",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "javascript-typescript-nextjs-web-server-security.md",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_0_safety_boundaries_and_anti_abuse_constraints_must_follow",
+      "label": "0) Safety, boundaries, and anti-abuse constraints (MUST FOLLOW)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "0) safety, boundaries, and anti-abuse constraints (must follow)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_1_generation_mode_default",
+      "label": "1.1 Generation mode (default)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.1 generation mode (default)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_2_passive_review_mode_always_on_while_editing",
+      "label": "1.2 Passive review mode (always on while editing)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.2 passive review mode (always on while editing)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_3_active_audit_mode_explicit_scan_request",
+      "label": "1.3 Active audit mode (explicit scan request)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.3 active audit mode (explicit scan request)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_operating_modes",
+      "label": "1) Operating modes",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1) operating modes",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_1_untrusted_input_treat_as_attacker_controlled_unless_proven_otherwise",
+      "label": "2.1 Untrusted input (treat as attacker-controlled unless proven otherwise)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.1 untrusted input (treat as attacker-controlled unless proven otherwise)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_2_state_changing_request",
+      "label": "2.2 State-changing request",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.2 state-changing request",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_3_required_audit_finding_format",
+      "label": "2.3 Required audit finding format",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.3 required audit finding format",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_definitions_and_review_guidance",
+      "label": "2) Definitions and review guidance",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2) definitions and review guidance",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L66"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_1_run_next_js_in_production_mode_must",
+      "label": "3.1 Run Next.js in production mode (MUST)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.1 run next.js in production mode (must)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_2_put_a_reverse_proxy_edge_layer_in_front_when_self_hosting_must_for_public_internet",
+      "label": "3.2 Put a reverse proxy / edge layer in front when self-hosting (MUST for public internet)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.2 put a reverse proxy / edge layer in front when self-hosting (must for public internet)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L124"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_3_baseline_header_cookie_posture_should",
+      "label": "3.3 Baseline header/cookie posture (SHOULD)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.3 baseline header/cookie posture (should)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L128"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_4_clear_separation_between_server_only_and_client_code_must",
+      "label": "3.4 Clear separation between server-only and client code (MUST)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.4 clear separation between server-only and client code (must)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L134"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_secure_baseline_minimum_production_configuration_must_in_production",
+      "label": "3) Secure baseline: minimum production configuration (MUST in production)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3) secure baseline: minimum production configuration (must in production)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L115"
+    },
+    {
       "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_4_rules_generation_audit",
       "label": "4) Rules (generation + audit)",
       "_origin": "ast",
@@ -9402,6 +9723,30 @@
       "norm_label": "4) rules (generation + audit)",
       "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
       "source_location": "L141"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_5_practical_scanning_heuristics_how_to_hunt",
+      "label": "5) Practical scanning heuristics (how to \u201chunt\u201d)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5) practical scanning heuristics (how to \u201chunt\u201d)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L1049"
+    },
+    {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_6_sources_accessed_2026_01_27",
+      "label": "6) Sources (accessed 2026-01-27)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6) sources (accessed 2026-01-27)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L1106"
     },
     {
       "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_next_action_001_server_actions_must_be_treated_like_public_endpoints",
@@ -9620,6 +9965,18 @@
       "source_location": "L432"
     },
     {
+      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_next_js_typescript_javascript_web_security_spec_next_js_16_1_x_node_js_20_9",
+      "label": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "4) Rules (generation + audit)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "next.js (typescript/javascript) web security spec (next.js 16.1.x, node.js 20.9+)",
+      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_next_log_001_logging_must_not_leak_secrets_or_sensitive_headers",
       "label": "NEXT-LOG-001: Logging MUST NOT leak secrets or sensitive headers",
       "_origin": "ast",
@@ -9764,220 +10121,592 @@
       "source_location": "L525"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security",
-      "label": "javascript-typescript-nextjs-web-server-security.md",
+      "id": "design",
+      "label": "design.md",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "page",
-      "norm_label": "javascript-typescript-nextjs-web-server-security.md",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "norm_label": "design.md",
+      "source_file": "design.md",
       "source_location": "L1"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_0_safety_boundaries_and_anti_abuse_constraints_must_follow",
-      "label": "0) Safety, boundaries, and anti-abuse constraints (MUST FOLLOW)",
+      "id": "design_airbnb_cereal_vf_circular_apple_system_system_ui_roboto_helvetica_neue_sans_serif_font_primary",
+      "label": "'Airbnb Cereal VF', Circular, -apple-system, system-ui, Roboto, 'Helvetica Neue', sans-serif \u00b7 `--font-primary`",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "0) safety, boundaries, and anti-abuse constraints (must follow)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L14"
+      "norm_label": "'airbnb cereal vf', circular, -apple-system, system-ui, roboto, 'helvetica neue', sans-serif \u00b7 `--font-primary`",
+      "source_file": "design.md",
+      "source_location": "L39"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_1_generation_mode_default",
-      "label": "1.1 Generation mode (default)",
+      "id": "design_airbnb_cereal_vf_circular_sans_serif_font_family_2",
+      "label": "'Airbnb Cereal VF', Circular, sans-serif \u00b7 `--font-family-2`",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1.1 generation mode (default)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L27"
+      "norm_label": "'airbnb cereal vf', circular, sans-serif \u00b7 `--font-family-2`",
+      "source_file": "design.md",
+      "source_location": "L47"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_2_passive_review_mode_always_on_while_editing",
-      "label": "1.2 Passive review mode (always on while editing)",
+      "id": "design_airbnb_style_reference",
+      "label": "Airbnb \u2014 Style Reference",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1.2 passive review mode (always on while editing)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L36"
+      "norm_label": "airbnb \u2014 style reference",
+      "source_file": "design.md",
+      "source_location": "L1"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_3_active_audit_mode_explicit_scan_request",
-      "label": "1.3 Active audit mode (explicit scan request)",
+      "id": "design_amenity_row",
+      "label": "amenity row",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1.3 active audit mode (explicit scan request)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L43"
+      "norm_label": "amenity row",
+      "source_file": "design.md",
+      "source_location": "L300"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_1_operating_modes",
-      "label": "1) Operating modes",
+      "id": "design_border_radius",
+      "label": "Border Radius",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1) operating modes",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L25"
+      "norm_label": "border radius",
+      "source_file": "design.md",
+      "source_location": "L96"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_1_untrusted_input_treat_as_attacker_controlled_unless_proven_otherwise",
-      "label": "2.1 Untrusted input (treat as attacker-controlled unless proven otherwise)",
+      "id": "design_button_pill_rausch",
+      "label": "button pill rausch",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2.1 untrusted input (treat as attacker-controlled unless proven otherwise)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L68"
+      "norm_label": "button pill rausch",
+      "source_file": "design.md",
+      "source_location": "L158"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_2_state_changing_request",
-      "label": "2.2 State-changing request",
+      "id": "design_button_primary",
+      "label": "button primary",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2.2 state-changing request",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L92"
+      "norm_label": "button primary",
+      "source_file": "design.md",
+      "source_location": "L117"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_3_required_audit_finding_format",
-      "label": "2.3 Required audit finding format",
+      "id": "design_button_primary_active",
+      "label": "button primary active",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2.3 required audit finding format",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L100"
+      "norm_label": "button primary active",
+      "source_file": "design.md",
+      "source_location": "L127"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_2_definitions_and_review_guidance",
-      "label": "2) Definitions and review guidance",
+      "id": "design_button_primary_disabled",
+      "label": "button primary disabled",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2) definitions and review guidance",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L66"
-    },
-    {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_1_run_next_js_in_production_mode_must",
-      "label": "3.1 Run Next.js in production mode (MUST)",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.1 run next.js in production mode (must)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L119"
-    },
-    {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_2_put_a_reverse_proxy_edge_layer_in_front_when_self_hosting_must_for_public_internet",
-      "label": "3.2 Put a reverse proxy / edge layer in front when self-hosting (MUST for public internet)",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.2 put a reverse proxy / edge layer in front when self-hosting (must for public internet)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L124"
-    },
-    {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_3_baseline_header_cookie_posture_should",
-      "label": "3.3 Baseline header/cookie posture (SHOULD)",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.3 baseline header/cookie posture (should)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L128"
-    },
-    {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_4_clear_separation_between_server_only_and_client_code_must",
-      "label": "3.4 Clear separation between server-only and client code (MUST)",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.4 clear separation between server-only and client code (must)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "norm_label": "button primary disabled",
+      "source_file": "design.md",
       "source_location": "L134"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_3_secure_baseline_minimum_production_configuration_must_in_production",
-      "label": "3) Secure baseline: minimum production configuration (MUST in production)",
+      "id": "design_button_secondary",
+      "label": "button secondary",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "3) secure baseline: minimum production configuration (must in production)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "norm_label": "button secondary",
+      "source_file": "design.md",
+      "source_location": "L141"
+    },
+    {
+      "id": "design_button_tertiary_text",
+      "label": "button tertiary text",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "button tertiary text",
+      "source_file": "design.md",
+      "source_location": "L151"
+    },
+    {
+      "id": "design_category_strip",
+      "label": "category strip",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "category strip",
+      "source_file": "design.md",
+      "source_location": "L232"
+    },
+    {
+      "id": "design_category_tab_active",
+      "label": "category tab active",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "category tab active",
+      "source_file": "design.md",
+      "source_location": "L239"
+    },
+    {
+      "id": "design_city_link_block",
+      "label": "city link block",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "city link block",
+      "source_file": "design.md",
+      "source_location": "L268"
+    },
+    {
+      "id": "design_components",
+      "label": "Components",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "components",
+      "source_file": "design.md",
       "source_location": "L115"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_5_practical_scanning_heuristics_how_to_hunt",
-      "label": "5) Practical scanning heuristics (how to \u201chunt\u201d)",
+      "id": "design_date_picker_day",
+      "label": "date picker day",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "5) practical scanning heuristics (how to \u201chunt\u201d)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L1049"
+      "norm_label": "date picker day",
+      "source_file": "design.md",
+      "source_location": "L333"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_6_sources_accessed_2026_01_27",
-      "label": "6) Sources (accessed 2026-01-27)",
+      "id": "design_date_picker_day_selected",
+      "label": "date picker day selected",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "6) sources (accessed 2026-01-27)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L1106"
+      "norm_label": "date picker day selected",
+      "source_file": "design.md",
+      "source_location": "L341"
     },
     {
-      "id": "agents_skills_security_best_practices_references_javascript_typescript_nextjs_web_server_security_next_js_typescript_javascript_web_security_spec_next_js_16_1_x_node_js_20_9",
-      "label": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "id": "design_do",
+      "label": "Do",
       "_origin": "ast",
       "community": 59,
-      "community_name": "Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)",
+      "community_name": "Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "next.js (typescript/javascript) web security spec (next.js 16.1.x, node.js 20.9+)",
-      "source_file": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
-      "source_location": "L1"
+      "norm_label": "do",
+      "source_file": "design.md",
+      "source_location": "L382"
+    },
+    {
+      "id": "design_do_s_and_don_ts",
+      "label": "Do's and Don'ts",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "do's and don'ts",
+      "source_file": "design.md",
+      "source_location": "L380"
+    },
+    {
+      "id": "design_don_t",
+      "label": "Don't",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "don't",
+      "source_file": "design.md",
+      "source_location": "L389"
+    },
+    {
+      "id": "design_experience_card",
+      "label": "experience card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "experience card",
+      "source_file": "design.md",
+      "source_location": "L260"
+    },
+    {
+      "id": "design_footer_light",
+      "label": "footer light",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "footer light",
+      "source_file": "design.md",
+      "source_location": "L358"
+    },
+    {
+      "id": "design_footer_link",
+      "label": "footer link",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "footer link",
+      "source_file": "design.md",
+      "source_location": "L366"
+    },
+    {
+      "id": "design_guest_favorite_badge",
+      "label": "guest favorite badge",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "guest favorite badge",
+      "source_file": "design.md",
+      "source_location": "L282"
+    },
+    {
+      "id": "design_host_card",
+      "label": "host card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "host card",
+      "source_file": "design.md",
+      "source_location": "L315"
+    },
+    {
+      "id": "design_icon_button_circle",
+      "label": "icon button circle",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "icon button circle",
+      "source_file": "design.md",
+      "source_location": "L175"
+    },
+    {
+      "id": "design_icon_button_outline",
+      "label": "icon button outline",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "icon button outline",
+      "source_file": "design.md",
+      "source_location": "L183"
+    },
+    {
+      "id": "design_layout",
+      "label": "Layout",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "layout",
+      "source_file": "design.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "design_layout_396",
+      "label": "Layout",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "layout",
+      "source_file": "design.md",
+      "source_location": "L396"
+    },
+    {
+      "id": "design_legal_band",
+      "label": "legal band",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "legal band",
+      "source_file": "design.md",
+      "source_location": "L373"
+    },
+    {
+      "id": "design_new_tag",
+      "label": "new tag",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "new tag",
+      "source_file": "design.md",
+      "source_location": "L291"
+    },
+    {
+      "id": "design_product_tab_active",
+      "label": "product tab active",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "product tab active",
+      "source_file": "design.md",
+      "source_location": "L199"
+    },
+    {
+      "id": "design_product_tab_inactive",
+      "label": "product tab inactive",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "product tab inactive",
+      "source_file": "design.md",
+      "source_location": "L207"
+    },
+    {
+      "id": "design_property_card",
+      "label": "property card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "property card",
+      "source_file": "design.md",
+      "source_location": "L247"
+    },
+    {
+      "id": "design_property_card_photo",
+      "label": "property card photo",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "property card photo",
+      "source_file": "design.md",
+      "source_location": "L255"
+    },
+    {
+      "id": "design_rating_display_card",
+      "label": "rating display card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "rating display card",
+      "source_file": "design.md",
+      "source_location": "L275"
+    },
+    {
+      "id": "design_reservation_card",
+      "label": "reservation card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reservation card",
+      "source_file": "design.md",
+      "source_location": "L324"
+    },
+    {
+      "id": "design_reviews_card",
+      "label": "reviews card",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reviews card",
+      "source_file": "design.md",
+      "source_location": "L308"
+    },
+    {
+      "id": "design_search_bar_pill",
+      "label": "search bar pill",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "search bar pill",
+      "source_file": "design.md",
+      "source_location": "L214"
+    },
+    {
+      "id": "design_search_field_segment",
+      "label": "search field segment",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "search field segment",
+      "source_file": "design.md",
+      "source_location": "L224"
+    },
+    {
+      "id": "design_search_orb",
+      "label": "search orb",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "search orb",
+      "source_file": "design.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "design_spacing_scale",
+      "label": "Spacing Scale",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "spacing scale",
+      "source_file": "design.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "design_text_input",
+      "label": "text input",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "text input",
+      "source_file": "design.md",
+      "source_location": "L348"
+    },
+    {
+      "id": "design_tokens_colors",
+      "label": "Tokens \u2014 Colors",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tokens \u2014 colors",
+      "source_file": "design.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "design_tokens_spacing_shapes",
+      "label": "Tokens \u2014 Spacing & Shapes",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tokens \u2014 spacing & shapes",
+      "source_file": "design.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "design_tokens_typography",
+      "label": "Tokens \u2014 Typography",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tokens \u2014 typography",
+      "source_file": "design.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "design_top_nav",
+      "label": "top nav",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "top nav",
+      "source_file": "design.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "design_type_scale",
+      "label": "Type Scale",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "type scale",
+      "source_file": "design.md",
+      "source_location": "L55"
     },
     {
       "id": "package",
@@ -11647,6 +12376,61 @@
       "source_location": "L4"
     },
     {
+      "id": "public_app",
+      "label": "app.js",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "app.js",
+      "source_file": "public/app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "public_app_origins",
+      "label": "origins",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "origins",
+      "source_file": "public/app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "public_app_presets",
+      "label": "presets",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "presets",
+      "source_file": "public/app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "public_app_root",
+      "label": "root",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "root",
+      "source_file": "public/app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "public_app_state",
+      "label": "state",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "state",
+      "source_file": "public/app.js",
+      "source_location": "L1"
+    },
+    {
       "id": "prompts_prompt_3_complete_mvp_ux_ui_conversational_refinement_validation_production_readiness_2_main_discover_experience",
       "label": "2. MAIN DISCOVER EXPERIENCE",
       "_origin": "ast",
@@ -11806,6 +12590,18 @@
     },
     {
       "source": "src_application_discovery_engine_discovertrips",
+      "target": "src_application_discovery_engine_rank",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_discovery_engine_discovertrips",
       "target": "src_application_date_engine_generatedatecombinations",
       "relation": "calls",
       "_origin": "ast",
@@ -11813,7 +12609,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L14",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_discover",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_fetchorigin",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_fetchorigin",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_normalize",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -11825,7 +12645,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/server.ts",
-      "source_location": "L15",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -11837,7 +12657,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/server.ts",
-      "source_location": "L31",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -11849,19 +12669,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/server.ts",
-      "source_location": "L31",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
-      "source": "src_application_providers_accommodationquote",
-      "target": "src_domain_travel_query_sourcerecord",
+      "source": "src_application_discovery_engine_discoveryresult",
+      "target": "src_domain_travel_query_tripcandidate",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_providers_flightquote",
+      "target": "src_domain_travel_query_datecombination",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "src/application/providers.ts",
-      "source_location": "L19",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -11873,7 +12705,55 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "src/application/providers.ts",
-      "source_location": "L18",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_providers_flightprovider_discover",
+      "target": "src_domain_travel_query_travelquery",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/application/providers.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_discover",
+      "target": "src_application_providers_flightquote",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_discover",
+      "target": "src_domain_travel_query_travelquery",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_fetchorigin",
+      "target": "src_application_providers_flightquote",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -11950,18 +12830,6 @@
     },
     {
       "source": "src_application_discovery_engine",
-      "target": "src_domain_travel_query_datecombination",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_discovery_engine",
       "target": "src_domain_travel_query_travelquery",
       "relation": "imports",
       "_origin": "ast",
@@ -11986,7 +12854,7 @@
     },
     {
       "source": "src_application_discovery_engine",
-      "target": "src_application_providers_accommodationquote",
+      "target": "src_application_providers_flightprovider",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12022,6 +12890,18 @@
     },
     {
       "source": "src_application_providers",
+      "target": "src_domain_travel_query_datecombination",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/application/providers.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_providers",
       "target": "src_domain_travel_query_sourcerecord",
       "relation": "imports",
       "_origin": "ast",
@@ -12029,7 +12909,55 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/application/providers.ts",
-      "source_location": "L20",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_providers",
+      "target": "src_domain_travel_query_travelquery",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/application/providers.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_application_providers_flightprovider",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_application_providers_flightquote",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_domain_travel_query_travelquery",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12053,7 +12981,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/server.ts",
-      "source_location": "L3",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12065,7 +12993,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/server.ts",
-      "source_location": "L3",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.ts",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12089,7 +13029,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/discovery-engine.test.ts",
-      "source_location": "L3",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12101,7 +13041,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/discovery-engine.test.ts",
-      "source_location": "L3",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_discovery_engine_test",
+      "target": "src_application_providers_flightprovider",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/discovery-engine.test.ts",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12164,7 +13116,33 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/application/providers.ts",
-      "source_location": "L20",
+      "source_location": "L1",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_application_providers",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L1",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_domain_travel_query",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L2",
       "type_only": true,
       "weight": 1.0
     },
@@ -12189,7 +13167,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/server.ts",
-      "source_location": "L3",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.ts",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12213,7 +13203,44 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/discovery-engine.test.ts",
-      "source_location": "L3",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_discovery_engine_test",
+      "target": "src_application_providers",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/discovery-engine.test.ts",
+      "source_location": "L2",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_normalize",
+      "target": "src_application_providers_flightquote",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "target": "src_application_providers_flightprovider",
+      "relation": "implements",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "type",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -12225,7 +13252,7 @@
       "confidence_score": 1.0,
       "context": "type",
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L23",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -17564,6 +18591,534 @@
       "weight": 1.0
     },
     {
+      "source": "design",
+      "target": "design_airbnb_style_reference",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_components",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_tokens_typography",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_do_s_and_don_ts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_layout_396",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_tokens_spacing_shapes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "design_airbnb_style_reference",
+      "target": "design_tokens_colors",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_primary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_primary_active",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_primary_disabled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_secondary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_tertiary_text",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_button_pill_rausch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_search_orb",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_icon_button_circle",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_icon_button_outline",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_top_nav",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_product_tab_active",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_product_tab_inactive",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_search_bar_pill",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_search_field_segment",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_category_strip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_category_tab_active",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_property_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_property_card_photo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L255",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_experience_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_city_link_block",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_rating_display_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_guest_favorite_badge",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_new_tag",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_amenity_row",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_reviews_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_host_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_reservation_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L324",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_date_picker_day",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_date_picker_day_selected",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_text_input",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_footer_light",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L358",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_footer_link",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "design_components",
+      "target": "design_legal_band",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "design_do_s_and_don_ts",
+      "target": "design_do",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "design_do_s_and_don_ts",
+      "target": "design_don_t",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_spacing_shapes",
+      "target": "design_layout",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_spacing_shapes",
+      "target": "design_spacing_scale",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_spacing_shapes",
+      "target": "design_border_radius",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_typography",
+      "target": "design_airbnb_cereal_vf_circular_apple_system_system_ui_roboto_helvetica_neue_sans_serif_font_primary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_typography",
+      "target": "design_airbnb_cereal_vf_circular_sans_serif_font_family_2",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "design_tokens_typography",
+      "target": "design_type_scale",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
       "source": "docs_ai_agent_registry",
       "target": "docs_ai_agent_registry_registro_de_agentes",
       "relation": "contains",
@@ -17659,7 +19214,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/ai/ENVIRONMENT-AUDIT.md",
-      "source_location": "L34",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -17670,7 +19225,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/ai/ENVIRONMENT-AUDIT.md",
-      "source_location": "L41",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -21887,6 +23442,83 @@
       "weight": 1.0
     },
     {
+      "source": "public_app",
+      "target": "public_app_origins",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_presets",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_root",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_state",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_renderorigins",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_amount",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "public_app",
+      "target": "public_app_esc",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_ai_bootstrap",
       "target": "scripts_ai_bootstrap_root",
       "relation": "contains",
@@ -21965,29 +23597,29 @@
     },
     {
       "source": "src_application_discovery_engine",
-      "target": "src_application_discovery_engine_discovertrips",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_discovery_engine",
       "target": "src_application_discovery_engine_parsetravelquery",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/application/discovery-engine.ts",
-      "source_location": "L26",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
       "source": "src_application_discovery_engine",
-      "target": "src_application_discovery_engine_mocksource",
+      "target": "src_application_discovery_engine_discoveryresult",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_discovery_engine",
+      "target": "src_application_discovery_engine_rank",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -21998,7 +23630,7 @@
     },
     {
       "source": "src_application_discovery_engine",
-      "target": "src_application_discovery_engine_destinations",
+      "target": "src_application_discovery_engine_discovertrips",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -22009,62 +23641,18 @@
     },
     {
       "source": "src_application_providers",
-      "target": "src_application_providers_datastatus",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/providers.ts",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_providers",
-      "target": "src_application_providers_flightprovider",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/providers.ts",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_providers",
-      "target": "src_application_providers_accommodationprovider",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/providers.ts",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_providers",
       "target": "src_application_providers_flightquote",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/application/providers.ts",
-      "source_location": "L18",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
       "source": "src_application_providers",
-      "target": "src_application_providers_accommodationquote",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/application/providers.ts",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_application_providers",
-      "target": "src_application_providers_sourcedresult",
+      "target": "src_application_providers_flightprovider",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -22103,51 +23691,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/domain/travel-query.ts",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "src_domain_travel_query",
-      "target": "src_domain_travel_query_sourcerecord",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/domain/travel-query.ts",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "src_domain_travel_query",
-      "target": "src_domain_travel_query_tripcostbreakdown",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/domain/travel-query.ts",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_domain_travel_query",
-      "target": "src_domain_travel_query_tripcandidate",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/domain/travel-query.ts",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "src_domain_travel_query",
-      "target": "src_domain_travel_query_datecombination",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/domain/travel-query.ts",
-      "source_location": "L29",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -22162,6 +23706,138 @@
       "weight": 1.0
     },
     {
+      "source": "src_domain_travel_query",
+      "target": "src_domain_travel_query_sourcerecord",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_domain_travel_query",
+      "target": "src_domain_travel_query_pricepart",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_domain_travel_query",
+      "target": "src_domain_travel_query_tripcostbreakdown",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_domain_travel_query",
+      "target": "src_domain_travel_query_datecombination",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_domain_travel_query",
+      "target": "src_domain_travel_query_tripcandidate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/domain/travel-query.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_apiticket",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_apiresponse",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_destinationnames",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_provider",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_publicdir",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_types",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "src_server",
       "target": "src_server_server",
       "relation": "contains",
@@ -22169,7 +23845,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/server.ts",
-      "source_location": "L5",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_discovery_engine_test",
+      "target": "tests_discovery_engine_test_provider",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/discovery-engine.test.ts",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -22261,27 +23948,73 @@
       "weight": 1.0
     },
     {
-      "source": "src_application_providers_accommodationprovider",
-      "target": "src_application_providers_accommodationprovider_search",
+      "source": "src_application_providers_flightprovider",
+      "target": "src_application_providers_flightprovider_discover",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/application/providers.ts",
-      "source_location": "L15",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
-      "source": "src_application_providers_flightprovider",
-      "target": "src_application_providers_flightprovider_searchindicative",
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_constructor",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/application/providers.ts",
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_discover",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
       "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_fetchorigin",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider",
+      "target": "src_infrastructure_providers_aviasales_aviasales_flight_provider_aviasalesflightprovider_normalize",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_application_discovery_engine_discovertrips",
+      "target": "src_application_providers_flightprovider_discover",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "context": "call",
+      "source_file": "src/application/discovery-engine.ts",
+      "source_location": "L9",
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "7580bfbabe4c768d589c41c7ceb9ef3a23c4b96a"
 }

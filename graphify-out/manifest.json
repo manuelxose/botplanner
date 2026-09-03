@@ -24,21 +24,21 @@
     "semantic_hash": ""
   },
   "src/application/providers.ts": {
-    "mtime": 1788378713.4274287,
-    "seen": 1788378777.205854,
-    "ast_hash": "4f4502ceed35c34958cef0586da22068",
+    "mtime": 1788454869.673131,
+    "seen": 1788455383.0553305,
+    "ast_hash": "d8800d801dde11b3cbc79248ab3f6e33",
     "semantic_hash": ""
   },
   "src/domain/travel-query.ts": {
-    "mtime": 1788378673.341823,
-    "seen": 1788378777.2058566,
-    "ast_hash": "94e7e2a628690d743647a8619e8263cd",
+    "mtime": 1788454869.589919,
+    "seen": 1788455383.0553348,
+    "ast_hash": "79e1029017296ed68480e884e853041e",
     "semantic_hash": ""
   },
   "src/server.ts": {
-    "mtime": 1788378673.3600366,
-    "seen": 1788378777.2058594,
-    "ast_hash": "78c4df0837cbc252cc8b907eaeea7840",
+    "mtime": 1788454938.147132,
+    "seen": 1788455383.0553415,
+    "ast_hash": "76fe44e371706c3d8ce882f9aa5c51bc",
     "semantic_hash": ""
   },
   "tests/date-engine.test.ts": {
@@ -162,15 +162,15 @@
     "semantic_hash": ""
   },
   "src/application/discovery-engine.ts": {
-    "mtime": 1788378732.6548944,
-    "seen": 1788378777.2058508,
-    "ast_hash": "b2bacf7a50db845cf55ce8732d3499e2",
+    "mtime": 1788454869.7756245,
+    "seen": 1788455383.055326,
+    "ast_hash": "7ec9bd2a43556705024c5e8a5427fcf8",
     "semantic_hash": ""
   },
   "tests/discovery-engine.test.ts": {
-    "mtime": 1788378687.7366755,
-    "seen": 1788378777.205865,
-    "ast_hash": "82086e026e122b6c4103d302d3019560",
+    "mtime": 1788454968.1661353,
+    "seen": 1788455383.05535,
+    "ast_hash": "d111f67ad2c2bfce26301e17e450f417",
     "semantic_hash": ""
   },
   "docs/providers/README.md": {
@@ -465,6 +465,30 @@
     "mtime": 1788379189.0,
     "seen": 1788379493.0300758,
     "ast_hash": "59e36ff37e0eb5062d72e40231521df6",
+    "semantic_hash": ""
+  },
+  "public/app.js": {
+    "mtime": 1788455025.3165035,
+    "seen": 1788455383.0553029,
+    "ast_hash": "8e47eb2e8aecb797b6393aa25611f71e",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts": {
+    "mtime": 1788454895.682088,
+    "seen": 1788455383.055338,
+    "ast_hash": "e0d5a93c61ccb8eae6a4d0d0469daebe",
+    "semantic_hash": ""
+  },
+  "design.md": {
+    "mtime": 1788454663.8796523,
+    "seen": 1788455383.0554597,
+    "ast_hash": "310f2be8506ff584c6cfa979d594f4bc",
+    "semantic_hash": ""
+  },
+  "public/index.html": {
+    "mtime": 1788455005.6624079,
+    "seen": 1788455383.0554981,
+    "ast_hash": "87d7c9a1550d519a04b41305c21d3866",
     "semantic_hash": ""
   }
 }

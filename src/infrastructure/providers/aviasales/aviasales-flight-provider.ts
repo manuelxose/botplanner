@@ -3,7 +3,6 @@ import type { TravelQuery } from '../../../domain/travel-query.js';
 
 type ApiTicket = { origin?: string; destination?: string; origin_airport?: string; destination_airport?: string; price?: number; departure_at?: string; return_at?: string; duration?: number; transfers?: number; number_of_changes?: number; found_at?: string; link?: string; };
 type ApiResponse = { success?: boolean; data?: ApiTicket[]; error?: string; };
-const destinationNames: Record<string, { name: string; country: string }> = { LIS: { name: 'Lisboa', country: 'Portugal' }, OPO: { name: 'Porto', country: 'Portugal' }, BCN: { name: 'Barcelona', country: 'España' }, MAD: { name: 'Madrid', country: 'España' }, FCO: { name: 'Roma', country: 'Italia' }, MXP: { name: 'Milán', country: 'Italia' }, CDG: { name: 'París', country: 'Francia' }, PRG: { name: 'Praga', country: 'Chequia' } };
 export class AviasalesFlightProvider implements FlightProvider {
   readonly name = 'Aviasales / Travelpayouts'; readonly available: boolean;
   private readonly cache = new Map<string, { expires: number; value: FlightQuote[] }>();
@@ -20,7 +19,7 @@ export class AviasalesFlightProvider implements FlightProvider {
   }
   private normalize(fallbackOrigin: string, ticket: ApiTicket): FlightQuote | null {
     const departure = ticket.departure_at?.slice(0, 10), returned = ticket.return_at?.slice(0, 10), price = ticket.price; if (!departure || !returned || !price || !ticket.destination) return null;
-    const nights = Math.round((Date.parse(`${returned}T00:00:00Z`) - Date.parse(`${departure}T00:00:00Z`)) / 86_400_000); if (nights < 1) return null; const code = ticket.destination_airport || ticket.destination; const known = destinationNames[code];
-    return { origin: ticket.origin_airport || ticket.origin || fallbackOrigin, destination: known?.name || code, destinationCode: code, country: known?.country, price, durationMinutes: ticket.duration, stops: ticket.transfers ?? ticket.number_of_changes, dates: { departureDate: departure, returnDate: returned, nights, calendarDays: nights + 1 }, source: { provider: this.name, retrievedAt: ticket.found_at || new Date().toISOString(), status: 'RECENT', confidence: 0.8 }, bookingLink: ticket.link ? `https://www.aviasales.com/search/${ticket.link}${this.marker ? `?marker=${encodeURIComponent(this.marker)}` : ''}` : undefined };
+    const nights = Math.round((Date.parse(`${returned}T00:00:00Z`) - Date.parse(`${departure}T00:00:00Z`)) / 86_400_000); if (nights < 1) return null; const code = ticket.destination_airport || ticket.destination;
+    return { origin: ticket.origin_airport || ticket.origin || fallbackOrigin, destinationCode: code, pricePerPerson: price, durationMinutes: ticket.duration, stops: ticket.transfers ?? ticket.number_of_changes, dates: { departureDate: departure, returnDate: returned, nights, calendarDays: nights + 1 }, source: { provider: this.name, retrievedAt: ticket.found_at || new Date().toISOString(), status: 'RECENT', confidence: 0.8 }, bookingLink: ticket.link ? `https://www.aviasales.com/search/${ticket.link}${this.marker ? `?marker=${encodeURIComponent(this.marker)}` : ''}` : undefined };
   }
 }

@@ -1,11 +1,11 @@
 # Graph Report - botplanner  (2026-09-03)
 
 ## Corpus Check
-- 66 files · ~86,240 words
+- 67 files · ~86,492 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1047 nodes · 1034 edges · 85 communities (60 shown, 24 thin omitted)
+- 1053 nodes · 1039 edges · 86 communities (61 shown, 24 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -99,6 +99,7 @@
 - TOKEN-EFFICIENCY.md
 - bootstrap.mjs
 - app.js
+- BotPlanner
 
 ## God Nodes (most connected - your core abstractions)
 1. `Components` - 34 edges
@@ -127,7 +128,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (85 total, 24 thin omitted)
+## Communities (86 total, 24 thin omitted)
 
 ### Community 0 - "PROMPT 00 — BOTPLANNER AI ENGINEERING BOOTSTRAP, GRAPHIFY KNOWLEDGE BASE, SKILLS & MULTI-AGENT SETUP.md"
 Cohesion: 0.04
@@ -369,20 +370,24 @@ Nodes (5): 8. VARIANT SELECTOR, Multi-country, Nature, Roadtrip, Simple
 Cohesion: 0.25
 Nodes (4): origins, presets, root, state
 
+### Community 85 - "BotPlanner"
+Cohesion: 0.33
+Nodes (5): Architecture, BotPlanner, Data guarantees and limitations, Run locally, Validate
+
 ## Knowledge Gaps
-- **843 isolated node(s):** `playwright_cli.sh script`, `name`, `version`, `private`, `type` (+838 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 896 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **847 isolated node(s):** `playwright_cli.sh script`, `name`, `version`, `private`, `type` (+842 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 901 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `34. Nivel de confianza del precio` connect `34. Nivel de confianza del precio` to `init.md`?**
+- **Why does `33. Alternativas dentro del resultado` connect `33. Alternativas dentro del resultado` to `init.md`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `21. Métrica €/hora útil` connect `21. Métrica €/hora útil` to `init.md`?**
+- **Why does `8. Tipos de viaje que debe generar` connect `8. Tipos de viaje que debe generar` to `init.md`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `playwright_cli.sh script`, `name`, `version` to the rest of the system?**
-  _843 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _847 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `PROMPT 00 — BOTPLANNER AI ENGINEERING BOOTSTRAP, GRAPHIFY KNOWLEDGE BASE, SKILLS & MULTI-AGENT SETUP.md` be split into smaller, more focused modules?**
   _Cohesion score 0.03571428571428571 - nodes in this community are weakly interconnected._
 - **Should `PROMPT 1 — MASTER ARCHITECTURE, REPOSITORY BOOTSTRAP & EXECUTION PLAN.md` be split into smaller, more focused modules?**

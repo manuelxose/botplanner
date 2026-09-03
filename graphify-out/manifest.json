@@ -7,51 +7,51 @@
   },
   "prompts/manifest.json": {
     "mtime": 1788378687.6709375,
-    "seen": 1788378777.2058418,
+    "seen": 1788456741.6170876,
     "ast_hash": "f3a9fa8d49d23c076cc5bd8606139153",
-    "semantic_hash": ""
+    "semantic_hash": "f3a9fa8d49d23c076cc5bd8606139153"
   },
   "package.json": {
-    "mtime": 1788379311.236152,
-    "seen": 1788379493.0299327,
-    "ast_hash": "3dfafb050d3bb0606976893be9527f71",
-    "semantic_hash": ""
+    "mtime": 1788456431.8283453,
+    "seen": 1788456741.617083,
+    "ast_hash": "978ef4c6b36a27e0becf6f0733c843b3",
+    "semantic_hash": "978ef4c6b36a27e0becf6f0733c843b3"
   },
   "src/application/date-engine.ts": {
     "mtime": 1788377812.241075,
-    "seen": 1788377843.8592057,
+    "seen": 1788456741.6170993,
     "ast_hash": "932b8b06020ddbc6f4ce36a43c4d9f21",
-    "semantic_hash": ""
+    "semantic_hash": "932b8b06020ddbc6f4ce36a43c4d9f21"
   },
   "src/application/providers.ts": {
-    "mtime": 1788454869.673131,
-    "seen": 1788455383.0553305,
-    "ast_hash": "d8800d801dde11b3cbc79248ab3f6e33",
-    "semantic_hash": ""
+    "mtime": 1788456271.7731605,
+    "seen": 1788456741.6171038,
+    "ast_hash": "ecdfdd21edeb9dc146af6925b7cdf6f0",
+    "semantic_hash": "ecdfdd21edeb9dc146af6925b7cdf6f0"
   },
   "src/domain/travel-query.ts": {
-    "mtime": 1788454869.589919,
-    "seen": 1788455383.0553348,
-    "ast_hash": "79e1029017296ed68480e884e853041e",
-    "semantic_hash": ""
+    "mtime": 1788456271.5344775,
+    "seen": 1788456741.6171055,
+    "ast_hash": "44c2cbe6259ed51c12c26bcbb337de27",
+    "semantic_hash": "44c2cbe6259ed51c12c26bcbb337de27"
   },
   "src/server.ts": {
-    "mtime": 1788454938.147132,
-    "seen": 1788455383.0553415,
-    "ast_hash": "76fe44e371706c3d8ce882f9aa5c51bc",
-    "semantic_hash": ""
+    "mtime": 1788456431.6716409,
+    "seen": 1788456741.6171136,
+    "ast_hash": "d94b75954890f0ecc98e3d9f9baa4d14",
+    "semantic_hash": "d94b75954890f0ecc98e3d9f9baa4d14"
   },
   "tests/date-engine.test.ts": {
     "mtime": 1788377812.2819142,
-    "seen": 1788377843.8592083,
+    "seen": 1788456741.6171505,
     "ast_hash": "becf153fab57682b84449629e12003d6",
-    "semantic_hash": ""
+    "semantic_hash": "becf153fab57682b84449629e12003d6"
   },
   "tsconfig.json": {
     "mtime": 1788377812.2077782,
-    "seen": 1788377843.859209,
+    "seen": 1788456741.6171541,
     "ast_hash": "c14490351056f432a32ab0fc7e29e5a1",
-    "semantic_hash": ""
+    "semantic_hash": "c14490351056f432a32ab0fc7e29e5a1"
   },
   ".codex/skills/graphify/SKILL.md": {
     "mtime": 1788376911.195425,
@@ -162,16 +162,16 @@
     "semantic_hash": ""
   },
   "src/application/discovery-engine.ts": {
-    "mtime": 1788454869.7756245,
-    "seen": 1788455383.055326,
-    "ast_hash": "7ec9bd2a43556705024c5e8a5427fcf8",
-    "semantic_hash": ""
+    "mtime": 1788456405.072925,
+    "seen": 1788456741.6171014,
+    "ast_hash": "fb7b9f641b194d475f1bd49e870967da",
+    "semantic_hash": "fb7b9f641b194d475f1bd49e870967da"
   },
   "tests/discovery-engine.test.ts": {
-    "mtime": 1788454968.1661353,
-    "seen": 1788455383.05535,
-    "ast_hash": "d111f67ad2c2bfce26301e17e450f417",
-    "semantic_hash": ""
+    "mtime": 1788456555.8356855,
+    "seen": 1788456741.6171522,
+    "ast_hash": "f0b9af969f65c962b91b98ab1b563b0c",
+    "semantic_hash": "f0b9af969f65c962b91b98ab1b563b0c"
   },
   "docs/providers/README.md": {
     "mtime": 1788378687.7134464,
@@ -181,21 +181,21 @@
   },
   ".agents/skills/playwright/scripts/playwright_cli.sh": {
     "mtime": 1788379189.0,
-    "seen": 1788379493.029916,
+    "seen": 1788456741.6100733,
     "ast_hash": "13378f0e70b31c018d5b1f3721c5228a",
-    "semantic_hash": ""
+    "semantic_hash": "13378f0e70b31c018d5b1f3721c5228a"
   },
   "scripts/ai/bootstrap.mjs": {
     "mtime": 1788379311.9042034,
-    "seen": 1788379493.0299425,
+    "seen": 1788456741.6170948,
     "ast_hash": "067dd51cbad19bd118457c063c564e33",
-    "semantic_hash": ""
+    "semantic_hash": "067dd51cbad19bd118457c063c564e33"
   },
   "scripts/ai/doctor.mjs": {
     "mtime": 1788379311.8727195,
-    "seen": 1788379493.0299451,
+    "seen": 1788456741.6170967,
     "ast_hash": "3b1181b42cf5c2ee0eeb497eafa87f49",
-    "semantic_hash": ""
+    "semantic_hash": "3b1181b42cf5c2ee0eeb497eafa87f49"
   },
   ".agents/skills/botplanner-architecture/SKILL.md": {
     "mtime": 1788379311.3724122,
@@ -469,15 +469,15 @@
   },
   "public/app.js": {
     "mtime": 1788455025.3165035,
-    "seen": 1788455383.0553029,
+    "seen": 1788456741.6170912,
     "ast_hash": "8e47eb2e8aecb797b6393aa25611f71e",
-    "semantic_hash": ""
+    "semantic_hash": "8e47eb2e8aecb797b6393aa25611f71e"
   },
   "src/infrastructure/providers/aviasales/aviasales-flight-provider.ts": {
-    "mtime": 1788454895.682088,
-    "seen": 1788455383.055338,
-    "ast_hash": "e0d5a93c61ccb8eae6a4d0d0469daebe",
-    "semantic_hash": ""
+    "mtime": 1788456287.928385,
+    "seen": 1788456741.6171103,
+    "ast_hash": "76f3191690149f2716da9f9c0be7f557",
+    "semantic_hash": "76f3191690149f2716da9f9c0be7f557"
   },
   "design.md": {
     "mtime": 1788454663.8796523,
@@ -490,5 +490,41 @@
     "seen": 1788455383.0554981,
     "ast_hash": "87d7c9a1550d519a04b41305c21d3866",
     "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1788455116.4312463,
+    "seen": 1788455693.76833,
+    "ast_hash": "d9b130970f6c634bb83752e7101bbb6e",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/destination/destination-service.ts": {
+    "mtime": 1788456325.830055,
+    "seen": 1788456741.617108,
+    "ast_hash": "ec3e14af4ce359ec641d49619b8e101f",
+    "semantic_hash": "ec3e14af4ce359ec641d49619b8e101f"
+  },
+  "src/infrastructure/providers/booking/booking-com-accommodation-provider.ts": {
+    "mtime": 1788456325.971323,
+    "seen": 1788456741.6171122,
+    "ast_hash": "715e35902f825f6bf1c6532c9483d087",
+    "semantic_hash": "715e35902f825f6bf1c6532c9483d087"
+  },
+  "tests/booking-com-accommodation-provider.test.ts": {
+    "mtime": 1788456555.8929505,
+    "seen": 1788456741.6171148,
+    "ast_hash": "948212fd01061d68a41c4d5d6530fdf7",
+    "semantic_hash": "948212fd01061d68a41c4d5d6530fdf7"
+  },
+  "vite.config.ts": {
+    "mtime": 1788456474.9295993,
+    "seen": 1788456741.6171556,
+    "ast_hash": "4671edd15cd2ff836afd406665c7342a",
+    "semantic_hash": "4671edd15cd2ff836afd406665c7342a"
+  },
+  "web/src/main.tsx": {
+    "mtime": 1788456661.5502744,
+    "seen": 1788456741.6171575,
+    "ast_hash": "38694d0df60d46c266f58e4a704b9343",
+    "semantic_hash": "38694d0df60d46c266f58e4a704b9343"
   }
 }

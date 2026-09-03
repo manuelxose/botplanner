@@ -6,7 +6,8 @@
   "scripts": {
     "ai:bootstrap": "node scripts/ai/bootstrap.mjs",
     "ai:doctor": "node scripts/ai/doctor.mjs",
-    "dev": "tsx watch src/server.ts",
+    "dev": "concurrently --kill-others-on-fail --names api,web --prefix-colors blue,green \"npm run api:dev\" \"npm run web:dev\"",
+    "api:dev": "tsx watch src/server.ts",
     "web:dev": "vite --config vite.config.ts",
     "build": "vite build --config vite.config.ts",
     "start": "tsx src/server.ts",
@@ -18,6 +19,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
     "tsx": "^4.19.0",
     "typescript": "^5.8.0",
     "vite": "^8.2.2"

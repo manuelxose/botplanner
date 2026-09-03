@@ -9,3 +9,11 @@ Los resultados de precios se presentan como `RECENT`: son observaciones reciente
 `BookingComAccommodationProvider` usa `POST /accommodations/search` contra sandbox por defecto y producción sólo cuando `BOOKING_API_ENV=production`. Requiere `Authorization: Bearer <BOOKING_API_TOKEN>` y `X-Affiliate-Id: <BOOKING_AFFILIATE_ID>` en todas las solicitudes. Los resultados normalizados con precio son `LIVE`; el precio es el total de la estancia para las habitaciones solicitadas, nunca un multiplicador por viajero. La caché de disponibilidad dura 5 minutos y la clave incluye destino, fechas, adultos, habitaciones y mercado del booker.
 
 Sin ambos secretos el proveedor se declara no disponible: no se sustituye por una estimación. Las URLs devueltas se preservan para no romper la atribución del afiliado. Investigación: [Booking authentication](https://developers.booking.com/demand/docs/development-guide/authentication) y [Accommodation v3.1 quick guide](https://developers.booking.com/demand/docs/accommodations/accommodation-v3.1-quick-guide), consultadas el 2026-09-03.
+
+## Cars and routing
+
+`BookingComCarRentalProvider` uses the same Demand API v3.1 client and `POST /cars/search`. It is `UNAVAILABLE` without the existing Booking credentials or required partner access; no car price is fabricated. Car prices are group amounts, with an exposed `oneWayFee` only when returned by the provider. Research: [Booking Cars overview](https://developers.booking.com/demand/docs/cars/overview), consulted 2026-09-03.
+
+`OpenRouteServiceRoutingProvider` uses `driving-car` directions only when `OPENROUTESERVICE_API_KEY` is configured. Route distance/duration is provider-derived logistics data, not a price. Fuel is an explicitly `ESTIMATED` configurable calculation. Tolls, parking and border fees remain `UNAVAILABLE`.
+
+A cross-border route means only that the geography crosses countries. It never establishes rental eligibility: when supplier terms are absent, the application reports `crossBorderPermission: UNKNOWN` and users must confirm permission with the rental company.

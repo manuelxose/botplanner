@@ -12,7 +12,8 @@
     "build": "vite build --config vite.config.ts",
     "start": "tsx src/server.ts",
     "test": "node --test --import tsx",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "data:airports:update": "node scripts/data/update-airports.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

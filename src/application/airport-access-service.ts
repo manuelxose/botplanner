@@ -1,0 +1,5 @@
+import type { Destination } from '../domain/travel-query.js';
+import { haversineKm } from './roadtrip-opportunity-engine.js';
+export interface AirportAccess { airport: Destination; distanceKm: number; durationMinutes?: number; mode: 'ROAD' | 'UNKNOWN'; monetaryCost?: number; status: 'ESTIMATED' | 'UNAVAILABLE'; provider: string; }
+/** Conservative airport selection: only indexed IATA airports within the requested radius. */
+export class AirportAccessService { constructor(private readonly airports: () => Destination[]) {} nearby(destination: Destination, maxKm = 180, limit = Number(process.env.MAX_RETURN_AIRPORT_CANDIDATES ?? 4)): AirportAccess[] { return this.airports().map((airport) => ({ airport, distanceKm: haversineKm(destination, airport) })).filter((x) => Number.isFinite(x.distanceKm) && x.distanceKm <= maxKm).sort((a, b) => a.distanceKm - b.distanceKm).slice(0, limit).map(({ airport, distanceKm }) => ({ airport, distanceKm: Math.round(distanceKm), durationMinutes: Math.round(distanceKm / 65 * 60), mode: 'ROAD', status: 'ESTIMATED', provider: 'Geographic airport access' })); } }

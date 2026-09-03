@@ -1,6 +1,9 @@
-import type { DateCombination, Destination, SourceRecord, TravelQuery } from '../domain/travel-query.js';
-export interface FlightQuote { origin: string; destinationCode: string; pricePerPerson: number; durationMinutes?: number; stops?: number; dates: DateCombination; source: SourceRecord; bookingLink?: string; }
-export interface FlightProvider { readonly name: string; readonly available: boolean; discover(input: Pick<TravelQuery, 'origins' | 'availabilityStart' | 'availabilityEnd' | 'minDays' | 'maxDays'>): Promise<FlightQuote[]>; }
+import type { Destination, TravelQuery } from '../domain/travel-query.js';
+import type { FlightItinerary, FlightProviderCapabilities, FlightSearchRequest } from '../domain/flight.js';
+export type FlightQuote = FlightItinerary;
+export interface FlightDiscoveryProvider { readonly name: string; readonly available: boolean; readonly capabilities: FlightProviderCapabilities; discover(input: Pick<TravelQuery, 'origins' | 'availabilityStart' | 'availabilityEnd' | 'minDays' | 'maxDays' | 'travellers'>): Promise<FlightItinerary[]>; discoverOneWay?(input: FlightSearchRequest): Promise<FlightItinerary[]>; }
+export interface FlightLiveSearchProvider { readonly name: string; readonly available: boolean; readonly capabilities: FlightProviderCapabilities; search(input: FlightSearchRequest, signal?: AbortSignal): Promise<FlightItinerary[]>; }
+export type FlightProvider = FlightDiscoveryProvider;
 export interface AccommodationSearchInput { destination: Destination; checkin: string; checkout: string; adults: number; rooms: number; bookerCountry: string; }
 export interface AccommodationResult { id: string; name: string; type?: string; reviewScore?: number; totalStayPrice?: number; pricePerNight?: number; currency: 'EUR'; availability: boolean; cancellation?: string; provider: string; status: 'LIVE' | 'MOCK'; retrievedAt: string; bookingUrl?: string; }
 export interface AccommodationProvider { readonly name: string; readonly available: boolean; search(input: AccommodationSearchInput): Promise<AccommodationResult[]>; }
@@ -10,3 +13,5 @@ export interface RoutingProvider { readonly name: string; readonly available: bo
 export interface CarRentalSearchInput { pickup: Destination; dropoff: Destination; pickupDateTime: string; dropoffDateTime: string; driverAge?: number; bookerCountry: string; currency: 'EUR'; signal?: AbortSignal; }
 export interface CarRentalResult { id: string; category?: string; name?: string; supplier?: string; supplierScore?: number; pickupDepot?: string; dropoffDepot?: string; pickupCoordinates?: [number, number]; dropoffCoordinates?: [number, number]; groupAmount?: number; oneWayFee?: number; extraCharges?: Array<{ type: string; amount: number }>; currency: 'EUR'; includedMileage?: string; fuelPolicy?: string; transmission?: string; seats?: number; bags?: number; airConditioning?: boolean; bookingUrl?: string; provider: string; status: 'LIVE' | 'MOCK'; retrievedAt: string; }
 export interface CarRentalProvider { readonly name: string; readonly available: boolean; search(input: CarRentalSearchInput): Promise<CarRentalResult[]>; }
+export interface GroundTransportLeg { mode: 'BUS' | 'TRAIN' | 'FERRY'; origin: string; destination: string; departure?: string; arrival?: string; durationMinutes?: number; pricePerPerson?: number; transfers?: number; provider: string; status: 'LIVE' | 'RECENT' | 'UNAVAILABLE'; bookingUrl?: string; }
+export interface GroundTransportProvider { readonly name: string; readonly available: boolean; search?(input: { origin: string; destination: string; date: string; adults: number }): Promise<GroundTransportLeg[]>; }
